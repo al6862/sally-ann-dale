@@ -7,9 +7,14 @@ const content = {
     icon,
     fields: [
         {
-            name: 'left_text',
-            title: 'Left Text',
-            type: 'string',
+            name: 'description',
+            title: 'Description',
+            type: 'text',
+        },
+        {
+            name: 'logo',
+            title: 'Logo',
+            type: 'image',
         },
     ],
 }

@@ -4,7 +4,6 @@ import { getSiteSettingsData } from "../../sanity/lib/fetch";
 
 export async function generateMetadata(): Promise<Metadata> {
   const data = await getSiteSettingsData()
-  console.log(data)
   const {siteSettings} = data
   const {title, description, url, keywords, socialImage, favicon} = siteSettings
 
