@@ -4,4 +4,6 @@
 
 body {
   background-color: #114160;
+  height: 100svh;
+  width: 100vw;
 }
