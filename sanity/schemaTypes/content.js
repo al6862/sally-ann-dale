@@ -14,7 +14,7 @@ const content = {
         {
             name: 'email',
             title: 'Email',
-            description: 'The logo is linked to this email.',
+            description: 'The logo links to this email.',
             type: 'string',
         },
         {
