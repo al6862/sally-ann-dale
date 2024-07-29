@@ -12,6 +12,12 @@ const content = {
             type: 'text',
         },
         {
+            name: 'email',
+            title: 'Email',
+            description: 'The logo is linked to this email.',
+            type: 'string',
+        },
+        {
             name: 'logo',
             title: 'Logo',
             type: 'image',
