@@ -7,9 +7,9 @@ export default async function Home() {
   const {description,logo} = content
 
   return (
-    <div >
-      <p>{description}</p>
-      <Image src={logo.asset.url} alt="Sally-Ann Dale logo" height={logo.asset.metadata.dimensions.height} width={logo.asset.metadata.dimensions.width} />
+    <div className="w-screen h-screen px-9 py-10 flex flex-col justify-between">
+      <p className="text-5xl text-grey-blue leading-close">{description}</p>
+      <Image className="w-full" src={logo.asset.url} alt="Sally-Ann Dale logo" height={logo.asset.metadata.dimensions.height} width={logo.asset.metadata.dimensions.width} />
     </div>
   );
 }
